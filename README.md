@@ -4,6 +4,7 @@ This module was intended for AWS provider to create Auto Scaling Group and Elast
 
 Copy and paste into your Terraform configuration, insert the 7 variables, and run terraform init :
 
+'''
 module "asg-elb" {
   source  = "azymberdi/asg-elb/aws"
   version = "1.0.0"
@@ -15,6 +16,7 @@ module "asg-elb" {
   access_key = ""   # access key from AWS
   secret_key = ""   # secret key from AWS  
 }
+'''
 
 
 
